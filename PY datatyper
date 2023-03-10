@@ -1,0 +1,15 @@
+min_var1 = 42
+min_var2 = "Hej verden"
+min_var3 = ["pære", "æble", "banan"]
+min_var4 = {"banan": "sb.", "spise": "vb.", "gul":"adj."}
+print(type(min_var1))
+
+#Lister
+min_var = ["pære", "æble", "banan"]
+print(min_var[1])
+print(type(min_var[1]))
+
+#Dictionaries
+min_var = {"banan": "sb.", "spise": "vb.", "gul":"adj."}
+print(min_var["banan"])
+print(type(min_var["banan"]))
