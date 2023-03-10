@@ -15,18 +15,19 @@ print(min_var["banan"])
 print(type(min_var["banan"]))
 
 #Dictionaries i lister
-minordbog = []
-minordbog.append("pære")
-minordbog.append("æble")
 
-opslag ={}
+opslag = {}
 opslag["pære"] = {
     "ordklasse": "sb.",
     "genus": "utr."
 }
-opslag["æble"] = {
-    "ordklasse": "sb.",
-    "genus": "utr."
+opslag["spise"] = {
+    "ordklasse": "vb.",
+    "prt.": "-te"
 }
+print (opslag["spise"]["ordklasse"])
 
-print (opslag["æble"]["ordklasse"])
+minordbog = []
+minordbog.append(opslag["pære"])
+minordbog.append(opslag["spise"])
+print (minordbog[0]["ordklasse"])
