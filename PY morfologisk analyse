@@ -1,0 +1,21 @@
+input = open("input.txt", "r")
+output = open("output.txt", "w")
+
+text = input.read()
+
+liste = text.splitlines()
+
+d = {}
+for x in liste:
+    kolonne = x.split(";")
+    stamme = kolonne[0]
+    if stamme in d:
+        d[stamme] += 1
+    else:
+        d[stamme] = 1
+
+for x in d:
+    ud = str(x) + "\n"
+    output.write(ud)
+
+output.close()
