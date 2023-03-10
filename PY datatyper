@@ -20,11 +20,11 @@ minordbog.append("pære")
 minordbog.append("æble")
 
 opslag ={}
-opslag["pære"] ={
+opslag["pære"] = {
     "ordklasse": "sb.",
     "genus": "utr."
 }
-opslag["æble"] ={
+opslag["æble"] = {
     "ordklasse": "sb.",
     "genus": "utr."
 }
