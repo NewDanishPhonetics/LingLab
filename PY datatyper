@@ -13,3 +13,20 @@ print(type(min_var[1]))
 min_var = {"banan": "sb.", "spise": "vb.", "gul":"adj."}
 print(min_var["banan"])
 print(type(min_var["banan"]))
+
+#Dictionaries i lister
+minordbog = []
+minordbog.append("pære")
+minordbog.append("æble")
+
+opslag ={}
+opslag["pære"] ={
+    "ordklasse": "sb.",
+    "genus": "utr."
+}
+opslag["æble"] ={
+    "ordklasse": "sb.",
+    "genus": "utr."
+}
+
+print (opslag["æble"]["ordklasse"])
