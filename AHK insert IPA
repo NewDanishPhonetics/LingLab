@@ -1,0 +1,18 @@
+;Save script with UTF-8-BOM encoding for special chars to work
+
+Ins & r::Send, ʁ
+Ins & h::Send, ʰ
+Ins & s::Send, ɕ
+Ins & n::Send, ŋ
+Ins & e::Send, ɛ
+Ins & 2::Send, œ
+Ins & 3::Send, ɶ
+Ins & o::Send, ɔ
+Ins & a::Send, ɒ
+Ins & 0::Send, ə
+Ins & i::Send, ɪ
+Ins & 9::Send, ɐ
+Ins & u::Send, ʊ
+Ins & d::Send, ɤ
+Ins & '::Send, ˈ
+Ins & -::Send, ̰
